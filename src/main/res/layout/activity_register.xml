@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="22sp"
+            android:paddingBottom="12dp"/>
+
+        <EditText android:id="@+id/etUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username"/>
+        <EditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="textPassword" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etFirst" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="First name" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etLast" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Last name" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etContact" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Contact" android:layout_marginTop="8dp"/>
+        <EditText android:id="@+id/etRole" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Role (guest/staff)" android:layout_marginTop="8dp"/>
+
+        <Button android:id="@+id/btnCreate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create" android:layout_marginTop="12dp"/>
+
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp"/>
+    </LinearLayout>
+</ScrollView>

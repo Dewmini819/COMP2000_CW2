@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestaurantCW2"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity_guest_menu"
+            android:exported="false" />
+        <activity
+            android:name=".MenuDb"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationPrefs"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationUtil"
+            android:exported="false" />
+        <activity
+            android:name=".DBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".MyReservationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuestCreateReservationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuestHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuestMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuestReservationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StaffHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StaffMenuManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StaffReservationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
